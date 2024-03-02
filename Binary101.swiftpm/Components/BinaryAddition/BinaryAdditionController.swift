@@ -24,7 +24,6 @@ class BinaryAdditionController: ObservableObject {
 
         let binary1 = binaryNumber1
         let binary2 = binaryNumber2
-
         let maxLength = max(binary1.count, binary2.count)
         let paddedBinary1 = binary1.padding(toLength: maxLength, withPad: "0", startingAt: 0)
         let paddedBinary2 = binary2.padding(toLength: maxLength, withPad: "0", startingAt: 0)
